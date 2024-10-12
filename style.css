@@ -1,0 +1,35 @@
+html{
+    scroll-behavior: smooth;;
+  }
+   body{
+       font-family: "Poppins", sans-serif;
+       color: black;
+       scroll-behavior: smooth;
+       
+   }
+   .navbar-default .navbar-brand {
+           color: white;
+       }
+       .Features-div-row .col-sm-4, .hover-div{
+       
+        padding: 20px;
+   }
+   .Features-div-row .col-sm-4, .hover-div:hover{
+       background-color: #2A1E36;
+       color: #f700ff;;
+   }
+   .navbar-default .navbar-nav>li>a {
+   color: white;
+}
+.navbar-default .navbar-toggle {
+   border-color: black;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+   background-color: #f700ff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+   background-color: black;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+   border-color: transparent;
+}
